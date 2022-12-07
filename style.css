@@ -1,0 +1,483 @@
+*{
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+body {
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    background: transparent;
+    background-color: #fff;
+    height: 120px;
+    display: flex;
+    padding-left: 25px;
+}
+
+.header {
+    width: 60%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header a {
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-decoration: none;
+    color: #2747c5;
+  }
+
+.navigation {
+    width: 40%;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-decoration: none;
+    color: #6d7b93;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.navigation a:hover {
+    background-color: #3858d6;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    filter: drop-shadow(1px 1px 2px #3858d6);
+  }
+
+
+#section1 {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#section1 h1 {
+    color: #1f3e72;
+    padding: 15px;
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+#section1 h1, h3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#section1 h3, .banner1 h3 { 
+    color: #6d7b93;
+    font-family: 'Poppins';
+    padding-left: 20px;
+}
+
+.img1 {
+    background: url("./img/bg.jpg") center center;
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: #fff;
+
+}
+
+.img1-container-title { 
+    padding: 5px 25px 25px 25px; 
+}
+
+.yellowimg1 img, .yellowimg2 img {
+    width: 20px;
+    padding-right: 5px;
+    filter: drop-shadow(1px 1px 10px #ffd012);
+}
+
+.yellowimg1, .yellowimg2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f3e72;
+    gap: 2%;
+}
+
+.img-yellow-container { 
+    display: flex;
+    padding: 25px 100px;
+    margin: 10px;
+}
+
+.section1-h2 {
+    color: #1f3e72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#section1 h2 {
+    color: #1f3e72;
+    gap: 2%;
+}
+
+.imgblue {
+    width: 18px;
+    filter: drop-shadow(1px 1px 10px #3454d2);
+}
+
+.img2 {
+    background: url("./img/covid1.jpg") center center;
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+.banner1 {
+    background-color: #fff;
+    width: 60%;
+    height: 140px;
+    position: absolute;
+    left: 10%;
+    top: 92%;
+    box-shadow: 1px 10px 30px #4354977a;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+.blueicon {
+    width: 18px;
+    background-color: #e9f1fd;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.banner1 h3 {
+    display: flex;
+    align-items: center;
+}
+
+#form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 50px 50px;
+    grid-gap: 15px;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+label {
+    color: #6d7b93;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+input[type=date], select  {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.bluebtn {
+    background-color: #e9f1fd;
+    color: #2747c5;font-family: 'Poppins';
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.bluebtn:hover {
+    background-color: #3858d6;
+    color: #fff;
+    padding: 15px 30px;
+    filter: drop-shadow(1px 1px 2px #3858d6);
+}
+
+
+#section2 {
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.vaccine-logo {
+   -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    opacity: 0.15;
+    width: 15%;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 5%;
+    padding: 5px 25px 25px 25px; 
+}
+
+.txt h2 {
+    color: #1f3e72;
+    font-size: 30px;
+}
+
+.txt p {
+    color: #6d7b93;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-top: 25px;
+}
+
+.banner1-appointment-item-label {
+    display: flex;
+    align-items: center;
+}
+
+#benefits-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.benefits-box {
+    width: 18%;
+    height: 350px;
+    border: 3px solid #f9f9fe;
+    border-radius: 10px;
+}
+
+.blueicon-big {
+    width: 25px;
+    background-color: #e9f1fd;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 25px 0px 0px 25px;
+}
+
+.benefits-box-info h3, .benefits-box-info p {
+    font-family: 'Poppins';
+    margin: 20px;
+}
+
+.benefits-box-info h3, .contact-box-info h3 {
+    color: #1f3e72;
+}
+
+.benefits-box-info p, .contact-box-info p{
+    color: #6d7b93;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.img3 {
+    background: url("./img/covid2_2.jpg") center center;
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#preparations-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.preparations-box {
+    width: 70%;
+    height: 60px;
+    background-color: #fff;
+    border: 3px solid #f9f9fe;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 1px 5px 20px #d9ddee7a;
+
+}
+
+.preparations-box h2 {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.preparations-box img {
+    width: 18px;
+    height: 18px;
+    margin: 15px 25px;
+}
+
+#section3 {
+    width: 100%;
+    display: flex;
+}
+
+.img4 {
+    background: url("img/covid3.jpg") center center;
+    width: 50%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+#contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-box {
+    width: 280px;
+    height: 220px;
+    background-color: #fff;
+    border: 3px solid #f9f9fe;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px #d9ddee7a;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#section3 a {
+    position: absolute;
+    margin-top: 8%;
+}
+
+#section3 img {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #eef3ff;
+    display: flex;
+}
+
+footer a {
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-decoration: none;
+    color: #2747c5;
+}
+
+.footer-logo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 50px 25px 50px;
+    margin-left: 50px;
+}
+
+.footer-logo p {
+    color: #6d7b93;
+    font-size: small;
+    font-family: 'Poppins';
+    font-weight: bold;
+    line-height : 25px;
+    margin-top: 15px;
+}
+
+.footer-nav {
+    width: 50%;
+    display: flex;
+    padding: 25px 50px 25px 50px;
+}
+
+table {
+    margin-left: auto;
+}
+
+th {
+    color: #1f3e72;
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+td {
+    color: #6d7b93;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.copyright {
+    width: 100%;
+    height: 15px;
+    background-color: #e0e8fc;
+    color: #6d7b93;
+    text-align: center;
+    font-size: x-small;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.copyright a {
+    color:  #3858d6;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #1f3e72;
+}
